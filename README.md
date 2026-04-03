@@ -1,5 +1,7 @@
 # ShowShark
 
+![ShowShark on all Apple devices](Media/ShowShark%20on%20all%20Apple%20devices.png)
+
 **Media streaming from your NAS to your Apple devices — no subscriptions, no cloud, no compromises.**
 
 ShowShark is a self-hosted media server and streaming platform optimized for the Apple ecosystem. It streams your personal media library from a Mac to iPhone, iPad, Apple TV, Mac, Apple Watch, and Apple Vision Pro using finely crafted, fully native apps. ShowShark is the Plex, Jellyfin, and Emby alternative for users who value privacy, simplicity, and an experience that feels at home on Apple hardware.
