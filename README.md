@@ -8,9 +8,9 @@ ShowShark is a self-hosted media server and streaming platform optimized for the
 
 ## Get ShowShark
 
-- [ShowShark on the App Store](https://apps.apple.com/us/app/showshark-stream-your-media/id6757886737) — Native client app for iPhone, iPad, Apple TV, Mac, Watch, and Vision Pro
-- [Download ShowShark Server](https://acgao.com/content/files/showshark/downloads/ShowShark-Server-latest.zip) — Mac native server application
-- [ShowShark in TestFlight](https://testflight.apple.com/join/HxeHFyWX) — Test the latest ShowShark beta version
+- [ShowShark Client (App Store)](https://apps.apple.com/us/app/showshark-stream-your-media/id6757886737) — Native client app for iPhone, iPad, Apple TV, Mac, Watch, and Vision Pro
+- [ShowShark Client (TestFlight)](https://testflight.apple.com/join/HxeHFyWX) — Test the latest ShowShark beta version
+- [ShowShark Server (Direct)](https://acgao.com/content/files/showshark/downloads/ShowShark-Server-latest.zip) — Mac native server application
 - [All Downloads](https://acgao.com/downloads/) — Downloads page on the ACGAO website
 
 ## Why ShowShark?
